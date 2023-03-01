@@ -24,7 +24,7 @@ public class Diamond {
 
     if (userInput % 2 == 1)
     {
-      for(int oddRows = 0; oddRows < userInput / 2; oddRows++)
+      for(int oddRows = 0; oddRows < userInput / 2; oddRows ++)
       {
         for(int oddWhiteSpace = 0; oddWhiteSpace < (userInput - 1) - oddRows; oddWhiteSpace ++)
         {
